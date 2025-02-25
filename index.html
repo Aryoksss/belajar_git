@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Diri</title>
+</head>
+<body>
+  <h1>Data Diri</h1>
+  <div id="dataDiri"></div>
+
+  <script>
+    const dataDiri = {
+      nama: 'Arya Eka Rahmat Prasetyo',
+      nomor: 11,
+      alamat: 'Jl. Berbah Utara No. 1, Berbah, Sleman, Yogyakarta',
+      kelas: 'XII SIJA A',
+      cita_cita: 'Ethical Hacker'
+    };
+
+    const dataDiriDiv = document.getElementById('dataDiri');
+    dataDiriDiv.innerHTML = `
+      <p>Nama: ${dataDiri.nama}</p>
+      <p>Nomor: ${dataDiri.nomor}</p>
+      <p>Alamat: ${dataDiri.alamat}</p>
+      <p>Kelas: ${dataDiri.kelas}</p>
+      <p>Cita-cita: ${dataDiri.cita_cita}</p>
+    `;
+  </script>
+</body>
+</html>
