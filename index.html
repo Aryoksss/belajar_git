@@ -9,6 +9,8 @@
 <body>
   <h1>Data Diri</h1>
   <div id="dataDiri"></div>
+  <h1>Temanku</h1>
+  <div id="temen"></div>
 
   <script>
     const dataDiri = {
@@ -26,7 +28,17 @@
       <p>Alamat: ${dataDiri.alamat}</p>
       <p>Kelas: ${dataDiri.kelas}</p>
       <p>Cita-cita: ${dataDiri.cita_cita}</p>
+      
     `;
+    const temen = {
+      nama: 'Gilang Nurhuda',
+      link: 'https://github.com/Rhin6z/belajar_git'
+    };
+
+    const temenDiv = document.getElementById('temen');
+    temenDiv.innerHTML = `
+    <p>Nama: ${temen.nama}</p>
+    <p>link repo: <a href="${temen.link}">${temen.link}</a></p>`;
   </script>
 </body>
 </html>
