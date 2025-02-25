@@ -1,1 +1,1 @@
-[![Contributors](https://contrib.rocks/image?repo=aryoksss/rule911&max=10)](https://github.com/aryoksss/rule911/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=aryoksss/belajar_git&max=10)](https://github.com/aryoksss/belajar_git/graphs/contributors)
